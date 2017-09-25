@@ -11,13 +11,24 @@ img {
   float: left;
   margin-right: 10px;
 }
-#multipleColumn {
-  column-count: 3;
-  column-gap: 40px;
-  column-width:300px;
+#left {
+  float:left;
+  width:33%;
+  padding:1mm;
 }
+#right {
+  float:right;
+  width:33%;
+  padding:1mm;
+}
+#center {
+  margin-right:33%;
+  margin-left:33%;
+  padding:1mm;
+}
+
 .navbar li {
-  display: inline;
-  padding-left: 5%;
-  padding-right: 5%;
+  display:inline;
+  padding-left:5%;
+  padding-right:5%;
 }
