@@ -11,3 +11,28 @@ img {
   float: left;
   margin-right: 10px;
 }
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+  padding-left:5%;
+  padding-right:5%;
+}
+.left {
+  float: left;
+  width:33%;
+  padding:1mm;
+}
+.right {
+  float:right;
+  width:33%;
+  padding:1mm;
+}
+.center {
+  margin-right:33%;
+  margin-left:33%;
+  padding:1mm;
+}
