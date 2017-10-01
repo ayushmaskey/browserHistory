@@ -1,7 +1,38 @@
 body {
-  margin-top:50px;
+  font-family: 'Open Sans', sans-serif;
+  color: darkblue;
+  margin: 10px 50px 10px 50px;
+  background-color: Ivory;
 }
-
-h1,h2{
-  color:#4162c4;
+h1, h2 {
+  font-family: Oswald, sans-serif;
+}
+img {
+  float: left;
+  margin-right: 10px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li {
+  display: inline;
+  padding-left:5%;
+  padding-right:5%;
+}
+.left {
+  float: left;
+  width:33%;
+  padding:1mm;
+}
+.right {
+  float:right;
+  width:33%;
+  padding:1mm;
+}
+.center {
+  margin-right:33%;
+  margin-left:33%;
+  padding:1mm;
 }
